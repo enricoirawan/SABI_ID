@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_user"
+    tools:context=".User">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:orientation="vertical">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/user_photo_profile"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:layout_gravity="center"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pengaturan_akun"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="310dp"
+            android:layout_height="33dp"
+            android:text="@string/edit_profil"
+            android:textSize="14sp"
+            android:background="@drawable/bg_user_setting"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="310dp"
+            android:layout_height="33dp"
+            android:text="@string/alamat"
+            android:textSize="14sp"
+            android:background="@drawable/bg_user_setting"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="310dp"
+            android:layout_height="33dp"
+            android:text="@string/no_telepon"
+            android:textSize="14sp"
+            android:background="@drawable/bg_user_setting"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btn_pengaturan_lainnya"
+            android:layout_marginTop="10dp"
+            android:layout_width="310dp"
+            android:layout_height="33dp"
+            android:text="@string/pengaturan_lainnya"
+            android:textSize="14sp"
+            android:background="@drawable/bg_user_setting"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aktivitas Kamu"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="310dp"
+            android:layout_height="33dp"
+            android:text="@string/chat"
+            android:textSize="14sp"
+            android:background="@drawable/bg_user_setting"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lainnya"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="310dp"
+            android:layout_height="33dp"
+            android:text="Bantuan Kami"
+            android:textSize="14sp"
+            android:background="@drawable/bg_user_setting"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="310dp"
+            android:layout_height="35dp"
+            android:text="Tentang Kami"
+            android:textSize="14sp"
+            android:background="@drawable/bg_user_setting"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

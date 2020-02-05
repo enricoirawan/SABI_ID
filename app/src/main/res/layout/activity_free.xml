@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".FreeAct">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/shadow">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="24dp"
+                android:layout_height="28dp"
+                android:src="@drawable/left_arrow"
+                android:layout_marginTop="23sp"
+                android:layout_marginLeft="23dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barang Gratis"
+                android:textSize="24sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="335dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginLeft="13dp"
+        android:src="@drawable/banner_gratis"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silahkan dipilih kaka.."
+            android:textSize="12sp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginLeft="16dp"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="0dp"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    android:layout_marginRight="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp">
+
+                        <Button
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="@drawable/ic_fav"
+                            android:layout_alignRight="@id/gambar_free"/>
+
+                        <ImageView
+                            android:id="@+id/gambar_free"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/contoh_free" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="95dp"
+                        android:paddingLeft="6dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/buku_cerita_anak"
+                            android:textSize="11sp"
+                            android:textColor="@color/colorBlack"/>
+
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gratis"
+                            android:textSize="11sp"
+                            android:textColor="@color/colorOrange"/>
+
+                        <RelativeLayout
+                            android:layout_marginTop="17dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/image_profile"
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:src="@drawable/profileimg"/>
+
+                            <TextView
+                                android:layout_marginLeft="6dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Rachel Putri"
+                                android:textColor="#AAAAAA"
+                                android:textStyle="bold"
+                                android:textSize="8sp"
+                                android:layout_toRightOf="@id/image_profile"
+                                android:layout_alignBottom="@id/image_profile" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    android:layout_marginRight="0dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp">
+
+                        <Button
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="@drawable/ic_fav"
+                            android:layout_alignRight="@id/gambar_free2"/>
+
+                        <ImageView
+                            android:id="@+id/gambar_free2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/contoh_free" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="95dp"
+                        android:paddingLeft="6dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/buku_cerita_anak"
+                            android:textSize="11sp"
+                            android:textColor="@color/colorBlack"/>
+
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gratis"
+                            android:textSize="11sp"
+                            android:textColor="@color/colorOrange"/>
+
+                        <RelativeLayout
+                            android:layout_marginTop="17dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/image_profile2"
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:src="@drawable/profileimg"/>
+
+                            <TextView
+                                android:layout_marginLeft="6dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Rachel Putri"
+                                android:textColor="#AAAAAA"
+                                android:textStyle="bold"
+                                android:textSize="8sp"
+                                android:layout_toRightOf="@id/image_profile2"
+                                android:layout_alignBottom="@id/image_profile2" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="0dp"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    android:layout_marginRight="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp">
+
+                        <Button
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="@drawable/ic_fav"
+                            android:layout_alignRight="@id/gambar_free3"/>
+
+                        <ImageView
+                            android:id="@+id/gambar_free3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/contoh_free" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="95dp"
+                        android:paddingLeft="6dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/buku_cerita_anak"
+                            android:textSize="11sp"
+                            android:textColor="@color/colorBlack"/>
+
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gratis"
+                            android:textSize="11sp"
+                            android:textColor="@color/colorOrange"/>
+
+                        <RelativeLayout
+                            android:layout_marginTop="17dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/image_profile3"
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:src="@drawable/profileimg"/>
+
+                            <TextView
+                                android:layout_marginLeft="6dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Rachel Putri"
+                                android:textColor="#AAAAAA"
+                                android:textStyle="bold"
+                                android:textSize="8sp"
+                                android:layout_toRightOf="@id/image_profile3"
+                                android:layout_alignBottom="@id/image_profile3" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp">
+
+                        <Button
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="@drawable/ic_fav"
+                            android:layout_alignRight="@id/gambar_free4"/>
+
+                        <ImageView
+                            android:id="@+id/gambar_free4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/contoh_free" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="95dp"
+                        android:paddingLeft="6dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/buku_cerita_anak"
+                            android:textSize="11sp"
+                            android:textColor="@color/colorBlack"/>
+
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gratis"
+                            android:textSize="11sp"
+                            android:textColor="@color/colorOrange"/>
+
+                        <RelativeLayout
+                            android:layout_marginTop="17dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/image_profile4"
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:src="@drawable/profileimg"/>
+
+                            <TextView
+                                android:layout_marginLeft="6dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Rachel Putri"
+                                android:textColor="#AAAAAA"
+                                android:textStyle="bold"
+                                android:textSize="8sp"
+                                android:layout_toRightOf="@id/image_profile4"
+                                android:layout_alignBottom="@id/image_profile4" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

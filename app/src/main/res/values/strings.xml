@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SABI ID FINAL</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+    <string name="cari_barangmu">Cari Barangmu...</string>
+    <string name="free">Free</string>
+    <string name="buy">Buy</string>
+    <string name="give">give</string>
+    <string name="Give">Give</string>
+    <string name="buku">Buku</string>
+    <string name="pakaian_pria">Pakaian Pria</string>
+    <string name="olahraga">Olahraga</string>
+    <string name="elektronik">Elektronik</string>
+    <string name="notifikasi">Notifikasi</string>
+    <string name="buku_cerita_anak">Buku Cerita Anak</string>
+    <string name="novel">Novel</string>
+    <string name="rp_90_000">Rp.90.000</string>
+    <string name="angga">Angga</string>
+    <string name="kategori_lain">Kategori Lain</string>
+    <string name="otomotif">Otomotif</string>
+    <string name="rumah_tangga">Rumah Tangga</string>
+    <string name="handphone">Handphone</string>
+    <string name="gaming">Gaming</string>
+    <string name="mainan_n_hobi">Mainan n hobi</string>
+    <string name="pakaian_anak">Pakaian Anak</string>
+    <string name="pengaturan_akun">Pengaturan Akun</string>
+    <string name="edit_profil">Edit Profil</string>
+    <string name="alamat">Alamat</string>
+    <string name="no_telepon">No. Telepon</string>
+    <string name="pengaturan_lainnya">Pengaturan Lainnya</string>
+    <string name="chat">Chat</string>
+    <string name="lainnya">Lainnya</string>
+    <string name="alamat_user">Jl. Udowo Timur 3, Bulu Lor, Semarang, \n Jawa Tengah</string>
+</resources>
